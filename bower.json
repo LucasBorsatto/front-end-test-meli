@@ -1,7 +1,10 @@
 {
   "name": "front-end-test-meli",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "chico": "^2.0.6"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"

@@ -10,4 +10,7 @@
     // Create a new carousel with option
     var carousel = new ch.Carousel(qS('.ch-carousel'), carouselOptions);
 
+    // Zoom image
+    var zoom = new ch.Zoom(qS('.product-description .big-image a'));
+
 }(this));

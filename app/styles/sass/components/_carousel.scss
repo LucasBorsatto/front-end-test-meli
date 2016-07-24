@@ -1,15 +1,20 @@
 .more-products .myCarousel{	
-	   overflow: hidden;
+	  overflow: hidden;
 
 	  .small-image{
 		max-width: 60px;
 	    height: 55px;
 	    padding: 2px;
 	    margin: 0;
+	    cursor: pointer;
 	  }
 
 	  .ch-carousel-disabled {
 	    display: block;
 	    color: #e2e2e2;
-	  }
+	  }  
 } 
+
+.ch-popover-content .ch-price{
+	  font-size: 1em;
+}

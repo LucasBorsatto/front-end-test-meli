@@ -12,7 +12,7 @@ body {
 
 #wrapper {
     padding: 10px 20px;
-    background-color: #F4F4F4;
+    background-color: $light-color;
     display: block;
     max-width: 650px;
     margin: 0 auto;
@@ -28,4 +28,61 @@ header {
         line-height: 1em;
         letter-spacing: 0.7px;
     }
+}
+
+/* title */
+
+
+/* description */
+
+.product-description{
+    margin-top: $top;
+    img{
+      width: 90%;
+      height: 247px;
+      border: 1px solid $light-color;
+      box-shadow: 1px 1px 6px #333333;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 10px;
+    }
+}
+
+.ch-price{
+    font-size: 1.9em !important;
+    line-height: normal;
+    sup{
+      font-size: .5em !important;
+      line-height: 1.5em;
+      margin-left: 2px;
+    }
+}
+
+.ch-form > fieldset legend{
+    display:none;
+}
+
+.ch-form .ch-form-row label{
+    text-align: left;
+    width: 55px;
+}
+
+.ch-form .details{
+    padding: 0px;
+}
+
+#buy-button{
+    line-height: 1.25em;
+    padding: 4px 15px;
+}
+
+.more-products img{
+    max-width: 60px;
+    height: 55px;
+    padding: 2px;
+    margin: 0;
+}
+
+.more-products .myCarousel{
+    overflow: hidden;
 }

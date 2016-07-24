@@ -3,7 +3,8 @@
   "private": true,
   "dependencies": {
     "jquery": "^3.1.0",
-    "chico": "^2.0.6"
+    "chico": "^2.0.6",
+    "tiny.js": "tiny#^0.2.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",

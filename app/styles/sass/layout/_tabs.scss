@@ -1,0 +1,68 @@
+.ch-box-container .tabs {
+   position: relative;
+   min-height: 250px;
+   margin: 60px -10px 10px;
+
+   .tab {
+  	  float: left;  
+   }
+
+   .content {
+	  z-index: 1;
+	  position: absolute;
+	  top: -1px;
+	  left: 0;
+	  background: $primary-color;
+	  right: 0;
+	  bottom: 0;
+	  padding: 20px;
+	  border: 1px solid #ccc; 
+	  -webkit-transition: opacity .6s linear;
+	  opacity: 0;
+	}
+
+	label {
+	  background: #eee; 
+	  padding: 10px; 
+	  border: 1px solid #ccc; 
+	  margin-left: -1px; 
+	  position: relative;
+	  left: 1px; 
+	  top: -29px;
+	  cursor: pointer;
+	  -webkit-transition: background-color .17s linear;
+	  border-top-left-radius: $border-tab;
+	  border-top-right-radius: $border-tab;
+	  box-shadow: $light-shadow;
+	}
+
+	.tab [type=radio] {
+	  display: none;   
+	}
+}
+
+[type=radio]:checked ~ label {
+  font-weight: 700;
+  letter-spacing: -.3px;
+  background: $primary-color;
+  padding-bottom: 1px;
+  border-bottom: 1px solid $primary-color;
+  z-index: 2;
+  box-shadow: none;
+}
+
+[type=radio]:checked ~ label ~ .content {
+  opacity: 1;
+}
+
+.ch-box-icon .ch-icon-help-sign {
+    color: #3a87ad;
+}
+
+.ch-seller{
+    color: #468847;
+}
+
+.ch-buyer{
+    color: #3a87ad;
+}

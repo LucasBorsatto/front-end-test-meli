@@ -1,0 +1,26 @@
+body {
+    background-color:  $background-color;
+    padding: 50px 0px;
+    background-image: url('../images/bg.jpg');
+    background-repeat: repeat;
+}
+
+#wrapper {
+    padding: 10px 20px;
+    background-color: $light-color;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+    border: 5px solid #EADE61;
+    border-radius: 2px;
+    box-shadow: $light-shadow;
+}
+
+header {
+    padding: 0px 10px 5px;
+    h1 {
+        font-size: 2.5em;
+        line-height: 1em;
+        letter-spacing: 0.7px;
+    }
+}

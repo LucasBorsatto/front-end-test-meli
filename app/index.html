@@ -31,7 +31,7 @@
     <![endif]-->
     
         <div id="wrapper" class="ch-clearfix">            
-             <section class="product" itemscope itemtype="http://schema.org/Product">
+             <section role="main" class="product" itemscope itemtype="http://schema.org/Product">
                 <header class="product-title">
                   <h1 itemprop="name">Ipad Mini Apple 16 Gb Wifi Led 7.9</h1>
                 </header>
@@ -49,14 +49,14 @@
                         <div class="ch-rightcolumn">                             
                           <form class="ch-form" action="/buyProduct" method="get">
                               <fieldset>
-                                   <legend>Price</legend>
+                                   <legend aria-hidden="true">Price</legend>
                                    <article class="ch-price" itemscope itemtype="http://schema.org/PriceSpecification">
                                      <span itemprop="priceCurrency" content="ARG">$</span>
                                      <span itemprop="price" content="4799.99">4799<sup>99</sup></span>
                                    </article>
                               </fieldset>
                               <fieldset>
-                                  <legend>Details</legend>
+                                  <legend aria-hidden="true">Details</legend>
                                   <div class="ch-form-row details">
                                       <label for="quantity">
                                           Quantity:
@@ -84,8 +84,8 @@
                                   </div>
                               </fieldset>
                               <fieldset class="buy">
-                                  <legend>Buy</legend>
-                                  <input type="submit" title="Buy Ipad Mini Apple 16 Gb Wifi Led 7.9" value="Buy" class="ch-btn vip-btn-primary vip-btn-buy" id="buy-button">
+                                  <legend aria-hidden="true">Buy</legend>
+                                  <input role="button" aria-pressed="false" tabindex="0" type="submit" title="Buy Ipad Mini Apple 16 Gb Wifi Led 7.9" value="Buy" class="ch-btn vip-btn-primary vip-btn-buy" id="buy-button">
                               </fieldset>
                               <p class="ch-form-hint">MercadoLibre isn't the owner of this product.</p>
                           </form>
@@ -96,52 +96,52 @@
                               <div class="myCarousel ch-carousel">
                                   <ul role="list">
                                       <li>
-                                       <a href="#" class="tooltip">
+                                       <a href="#" class="tooltip" role="link" title="Similar Product 1">
                                           <img itemprop="isSimilarTo" src="images/other.jpg" class="ch-box-lite small-image image"/>
                                         </a>
                                       </li>
                                       <li>
-                                      <a href="#">
+                                      <a href="#" role="link" title="Similar Product 2">
                                           <img itemprop="isSimilarTo" src="images/other1.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <a href="#" role="link" title="Similar Product 3">
                                           <img itemprop="isSimilarTo" src="images/other3.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <a href="#" role="link" title="Similar Product 4">
                                           <img itemprop="isSimilarTo" src="images/other4.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <a href="#" role="link" title="Similar Product 5">
                                           <img itemprop="isSimilarTo" src="images/other3.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
-                                       <a href="#">
+                                       <a href="#" role="link" title="Similar Product 6">
                                           <img itemprop="isSimilarTo" src="images/other2.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <a href="#" role="link" title="Similar Product 7">
                                           <img itemprop="isSimilarTo" src="images/other1.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <a href="#" role="link" title="Similar Product 8">
                                           <img itemprop="isSimilarTo" src="images/other.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <a href="#" role="link" title="Similar Product 9">
                                           <img itemprop="isSimilarTo" src="images/other3.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <a href="#" role="link" title="Similar Product 10">
                                           <img itemprop="isSimilarTo" src="images/other1.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
@@ -153,11 +153,12 @@
                 </section>
 
                 <section class="mesh-row ch-box-container">
+                   <hr/>
                 <div class="tabs ch-box-lite ch-g1" role="tablist">
                   <div class="tab">
                     <input type="radio" id="tab-1" name="tab-group-1" role="tab" aria-controls="description">
                     <label for="tab-1">Product Description</label>
-                    <div id="description" class="content" role="tabpanel" aria-labelledby="tab1" aria-hidden="false">
+                    <div id="description" class="content" role="tabpanel" aria-labelledby="tab1" aria-hidden="true">
                         <div class="ch-box-icon">
                           <i class="ch-icon-info-sign"></i>
                           <h2>Technical Specifications</h2>

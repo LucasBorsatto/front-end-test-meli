@@ -10,8 +10,8 @@ body {
     padding: 10px 20px;
     background-color: $light-color;
     display: block;
-    max-width: 650px;
-    margin: 0 auto;
+    max-width: 70%;
+    margin: 15px auto;
     border: 5px solid #EADE61;
     border-radius: 2px;
     box-shadow: $light-shadow;
@@ -20,8 +20,24 @@ body {
 header {
     padding: 0px 10px 5px;
     h1 {
-        font-size: 2.5em;
+        font-size: 3.5em;
         line-height: 1em;
         letter-spacing: 0.7px;
+    }
+}
+
+/* Mobile */
+@media all and (max-width: 800px) {
+    header {
+        h1 {
+            font-size: 3em;
+        }    
+    }
+}
+@media all and (max-width: 450px) {
+    header {
+        h1 {
+            font-size: 2.4em;
+        }    
     }
 }

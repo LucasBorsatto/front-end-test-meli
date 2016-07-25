@@ -25,22 +25,22 @@
     <!-- endbuild -->
     
   </head>
-  <body>
+  <body itemscope itemtype="http://schema.org/WebPage">
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     
         <div id="wrapper" class="ch-clearfix">            
-             <section class="product">
+             <section class="product" itemscope itemtype="http://schema.org/Product">
                 <header class="product-title">
-                  <h1>Ipad Mini Apple 16 Gb Wifi Led 7.9</h1>
+                  <h1 itemprop="name">Ipad Mini Apple 16 Gb Wifi Led 7.9</h1>
                 </header>
 
                 <section class="mesh-row product-description">
                   <div class="ch-g1-2 ch-clearfix">
                     <div class="ch-leftcolumn big-image">
                             <a class="zoom image" href="images/ipad.jpg" target="_blank">
-                                <img src="images/ipad.jpg" alt="Apple Ipad Image" />
+                                <img itemprop="image" src="images/ipad.jpg" alt="Apple Ipad Image" />
                             </a>
                     </div>
                   </div>
@@ -50,8 +50,9 @@
                           <form class="ch-form" action="/buyProduct" method="get">
                               <fieldset>
                                    <legend>Price</legend>
-                                   <article class="ch-price">
-                                        <strong>$4799<sup>99</sup></strong>
+                                   <article class="ch-price" itemscope itemtype="http://schema.org/PriceSpecification">
+                                     <span itemprop="priceCurrency" content="ARG">$</span>
+                                     <span itemprop="price" content="4799.99">4799<sup>99</sup></span>
                                    </article>
                               </fieldset>
                               <fieldset>
@@ -95,53 +96,53 @@
                               <div class="myCarousel ch-carousel">
                                   <ul role="list">
                                       <li>
-                                        <a href="#" class="tooltip">
-                                          <img src="images/other.jpg" class="ch-box-lite small-image image"/>
+                                       <a href="#" class="tooltip">
+                                          <img itemprop="isSimilarTo" src="images/other.jpg" class="ch-box-lite small-image image"/>
+                                        </a>
+                                      </li>
+                                      <li>
+                                      <a href="#">
+                                          <img itemprop="isSimilarTo" src="images/other1.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
                                         <a href="#">
-                                          <img src="images/other1.jpg" class="ch-box-lite small-image image" />
+                                          <img itemprop="isSimilarTo" src="images/other3.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
                                         <a href="#">
-                                          <img src="images/other3.jpg" class="ch-box-lite small-image image" />
+                                          <img itemprop="isSimilarTo" src="images/other4.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
                                         <a href="#">
-                                          <img src="images/other4.jpg" class="ch-box-lite small-image image" />
+                                          <img itemprop="isSimilarTo" src="images/other3.jpg" class="ch-box-lite small-image image" />
+                                        </a>
+                                      </li>
+                                      <li>
+                                       <a href="#">
+                                          <img itemprop="isSimilarTo" src="images/other2.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
                                         <a href="#">
-                                          <img src="images/other3.jpg" class="ch-box-lite small-image image" />
+                                          <img itemprop="isSimilarTo" src="images/other1.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
                                         <a href="#">
-                                          <img src="images/other2.jpg" class="ch-box-lite small-image image" />
+                                          <img itemprop="isSimilarTo" src="images/other.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
                                         <a href="#">
-                                          <img src="images/other1.jpg" class="ch-box-lite small-image image" />
+                                          <img itemprop="isSimilarTo" src="images/other3.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                       <li>
                                         <a href="#">
-                                          <img src="images/other.jpg" class="ch-box-lite small-image image" />
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="#">
-                                          <img src="images/other3.jpg" class="ch-box-lite small-image image" />
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="#">
-                                          <img src="images/other1.jpg" class="ch-box-lite small-image image" />
+                                          <img itemprop="isSimilarTo" src="images/other1.jpg" class="ch-box-lite small-image image" />
                                         </a>
                                       </li>
                                   </ul>
@@ -168,22 +169,22 @@
                                     <th scope="col">Details</th>
                                 <tr>
                             </thead>
-                            <tbody>
+                            <tbody itemprop="additionalProperty" itemscope itemtype="http://schema.org/PropertyValue">
                                 <tr>
-                                    <td>Color</td>
-                                    <td><p>White</p></td>
+                                    <td itemprop="name">Color</td>
+                                    <td><p itemprop="value">White</p></td>
                                 </tr>
                                 <tr>
-                                    <td>Storage</td>
-                                    <td>16 GB</p></td>
+                                    <td itemprop="name">Storage</td>
+                                    <td><p itemprop="value">16 GB</p></td>
                                 </tr>
                                 <tr>
-                                    <td>Wi-Fi</td>
-                                    <td><p>802.11n 2.4GHz and 5GHz</p></td>
+                                    <td itemprop="name">Wi-Fi</td>
+                                    <td><p itemprop="value">802.11n 2.4GHz and 5GHz</p></td>
                                 </tr>
                                 <tr>
-                                    <td>Display</td>
-                                    <td><p>7.9-inch (diagonal) LED-backlit Multi-Touch</p></td>
+                                    <td itemprop="name">Display</td>
+                                    <td><p itemprop="value">7.9-inch (diagonal) LED-backlit Multi-Touch</p></td>
                                 </tr> 
                             </tbody>
                         </table>
@@ -193,14 +194,16 @@
                   <div class="tab">
                     <input type="radio" id="tab-2" name="tab-group-1" role="tab" aria-controls="questions" aria-selected="true" checked>
                     <label for="tab-2">Questions</label>
-                    <div id="questions" class="content" role="tabpanel" aria-labelledby="tab2" aria-expanded="true" role="tabpanel">
-                      <strong class="ch-buyer" title="Buyer ">Buyer</strong>
-                      <div class="ch-box-icon ch-box-info">
-                        <i class="ch-icon-help-sign"></i>Do you have this one in white?
+                    <div id="questions" class="content" role="tabpanel" aria-labelledby="tab2" aria-expanded="true" role="tabpanel" itemscope itemtype="http://schema.org/Question">
+                      <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+                        <strong itemprop="name" class="ch-buyer" title="Buyer ">Buyer</strong>
                       </div>
-                      <strong  class="ch-seller" title="Seller">Seller</strong>
-                      <div class="ch-box-icon ch-box-ok">
-                       <i class="ch-icon-ok-sign"></i>No I don't, I only have black
+                      <div class="ch-box-icon ch-box-info" >
+                        <i class="ch-icon-help-sign" itemprop="name"></i>Do you have this one in white?
+                      </div>
+                      <strong class="ch-seller" title="Seller">Seller</strong>
+                      <div class="ch-box-icon ch-box-ok" itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
+                       <i class="ch-icon-ok-sign" itemprop="text"></i>No I don't, I only have black
                       </div>
                     </div> 
                   </div>

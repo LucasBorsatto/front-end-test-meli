@@ -1,9 +1,11 @@
 .product-description{
     margin-top: $top;
 
-    .ch-price{
-     font-size: 1.9em;
+    .ch-price span{
+     font-size: 1.6em;
      line-height: normal;
+     color: #900;
+     font-weight: bold;
         sup{
           font-size: .5em;
           line-height: 1.5em;

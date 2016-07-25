@@ -85,6 +85,12 @@ gulp.task('fonts', () => {
     .pipe(gulp.dest('dist/fonts'));
 });
 
+gulp.task('copyfonts', () => {
+   return gulp.src('./bower_components/chico/dist/assets/**/*.{ttf,woff,eof,svg,otf,png,gif}')
+    .pipe(gulp.dest('.tmp/assets'))
+    .pipe(gulp.dest('dist/assets'));
+});
+
 gulp.task('extras', () => {
   return gulp.src([
     'app/*.*',
